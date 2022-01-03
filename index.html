@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My CV</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="cv.md">
+</head>
+<body>
+  <header>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__item"><a href="#about-me">About me</a></li>
+        <li class="nav__item"><a href="#skills">Skills</a></li>
+        <li class="nav__item"><a href="#code">Code</a></li>
+        <li class="nav__item"><a href="#contact">Contact</a></li>
+        <li class="nav__item"><a href="#education">Edication</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main class="container">
+    <div class="left-side">
+      <figure class="figure--left--side">
+        <img 
+        src="img/icon/Dmitry.png" 
+        width="250"
+        height="250"
+        alt="Photo of Dmitry Dolganov" 
+        class="photo">
+      </figure> <br>
+      <section class="contact" id="contact">
+        <h2 class="section-title">Contact</h2>
+        <ul class="contact__list">
+          <li class="contact__item">
+            Phone: <br> <a href="tel: +79268573382">+ 7 (926) 857-33-82</a>
+          </li> <br>
+          <li class="contact__item">
+            Email: <br> <a href="mailto:dvr07@yandex.ru">dvr07@yandex.ru</a>
+          </li> <br>
+          <li class="contact__item">
+            Address: <br>
+            <span>Russia <br> Moscow</span>
+          </li>
+        </ul>
+      </section>
+      <br>
+
+      <section class="education" id="education">
+        <h2 class="section-title">Education</h2>
+        <ul class="education__list">
+          <li class="education__item">
+            MIREA - Russian Technological University<br />
+            Radio Engineer (Specialist)
+          </li> <br> <br>
+          <li class="education__item">
+            MSU <br />Computer technology developer <br>
+            Student
+          </li>
+        </ul>
+      </section>
+    </div>
+
+    <div class="right-side">
+      <section class="page-title">
+        <h1 class="main-title">Dmitry  Dolganov</h1>
+        <p>Front-End developer</p>
+      </section>
+
+      <section class="about me" id="about-me">
+        <h2 class="section-title">About me</h2>
+        <p id="about-me-content">
+          Since childhood, I have loved to do amateur radio and create something with my hands. I collected amplifiers, acoustics, etc. I also like to read books, I love nature and travel. As for programming, I really like web development and database development.
+        </p>
+      </section>
+
+      <section class="skills" id="skills">
+        <h2 class="section-title">Skills</h2>
+        <ul class="skill__list">
+          <li>HTML, CSS</li>
+          <li>JavaScript</li>
+          <li>React</li>
+          <li>Redux</li>
+          <li>Git</li>
+          <li>OOP</li>
+          <li>UML</li>
+          <li>SQL</li>
+          <li>C#</li>
+          <li>VS Code, Visual Studio, SQL Server Management Studio</li>
+          <li>English - A2+</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 class="section-title">Code</h2>
+        <pre>
+          <code class="code" id="code">
+            function mul(a, b) {
+              return a * b;
+            }
+            
+            let result = mul(3, 4);
+            alert( result );
+          </code>
+        </pre>
+      </section>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <a class="footer__github" href="https://github.com/dvr16" target="_blank">
+      <img 
+      src="img\logo\github.jpg" 
+      width="45"
+      height="45"
+      alt="github">
+      My GitHub
+    </a>
+    <p class="footer__year">2022</p>
+    <a class="footer__rsschool" href="https://rs.school/js/" target="_blank">
+      <img 
+      src="img/logo/psschool.jpg" 
+      width="45"
+      height="45"
+      alt="RS School">
+    </a>
+  </footer>
+</body>
+</html>
