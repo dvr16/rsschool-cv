@@ -69,7 +69,7 @@ ul.nav__list > li > a {
   }
 
   .about-me {
-    padding: 5;
+    padding: 0;
     margin-bottom: 54px;
   }
   .about-me #about-me p {
