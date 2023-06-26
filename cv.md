@@ -14,7 +14,7 @@ rsschool-cv
 I was born in Moscow. Graduated from the MIREA Institute, majoring in radio engineer. Among other interests, I am interested in programming. My main interest is the development of databases and Internet technologies.
 
 ### Skills and Proficiency
-* HTML5
+* HTML5, CSS
 * JavaScript
 * Git, GitHub
 * VS Code, Visual Studio
