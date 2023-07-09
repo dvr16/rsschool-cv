@@ -6,7 +6,7 @@ rsschool-cv
 
 ### Contact information
 
-#### Phone: + 0 123 456 89 87
+#### Phone: + 0 123 456 89 01
 #### E-mail: dvr07@yandex.ru 
 
 
