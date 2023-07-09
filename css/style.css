@@ -211,9 +211,9 @@ header {
 .code-example pre {
   margin: 0;
   padding: 0;
-  font-size: 20px;
-  line-height: 20px;
-  background-color:rgb(255, 179, 0)
+  font-size: 30px;
+  line-height: 30px;
+  background-image: url("../img/back2.jpg");
 }
 
 
