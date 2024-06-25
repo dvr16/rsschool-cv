@@ -1,4 +1,4 @@
-# [rsschool-cv](https://google.com)
+# [rsschool-cv](https://dvr16.github.io/rsschool-cv/)
 ## Dmitry Dolganov
 ## My contacts
 - __Location:__ *Moscow, Russia*
