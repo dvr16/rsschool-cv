@@ -33,3 +33,16 @@
 .site-navigation {
   list-style: none;
 }
+
+/** User navigation */
+
+.site-navigation a {
+  color: blue;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus,
+.site-navigation a:hover,
+.site-navigation a:focus {
+  background-color: yellowgreen;
+}
