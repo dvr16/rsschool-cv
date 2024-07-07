@@ -1,12 +1,115 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="page" lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>CV</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="image.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
-<body>
-  
+<body class="page-body">
+  <header class="main-header">
+    <nav class="main-navigation">
+      <a class="main-header-logo">
+        <img src="assets/i.webp" alt="RollingScopes" width="50" height="50">
+      </a>
+      <ul class="site-navigation">
+        <li class="navigation-item"><a href="#about-me">About me</a></li>
+        <li class="navigation-item"><a href="#contacts">Contacts</a></li>
+        <li class="navigation-item"><a href="#skills">Skills</a></li>
+        <li class="navigation-item"><a href="#code">Code</a></li>
+        <li class="navigation-item"><a href="#courses">Courses</a></li>
+        <li class="navigation-item"><a href="#projects">Projects</a></li>
+        <li class="navigation-item"><a href="#english">English</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1>Dmitry Dolganov</h1>
+    <section class="about-me" id="about-me">
+      <h2>About me</h2>
+      <figure>
+        <img src="assets/frontend.png" alt="frontend" width="200" height="200">
+      </figure>
+      <p>I want to become the best developer in the world!</p>
+    </section>
+
+    <section class="contacts" id="contacts">
+      <h2>Contacts</h2>
+      <ul class="contacts-list">
+        <li class="contact-item"><h3>Email:</h3><p>dvr07@yandex.ru</p></li>
+        <li class="contact-item"><h3>Phone:</h3><p>+ 7 (123) 456 78 90</p></li>
+        <li class="contact-item"><h3>Discord:</h3><p>My Discord</p></li>
+        <li class="contact-item"><h3>Address</h3>Moscow</li>
+      </ul>
+    </section>
+
+    <section class="skills" id="skills">
+      <h2>Skills</h2>
+      <ul class="skills-list">
+        <li class="srill-item">
+          <h3>HTML</h3>
+        </li>
+        <li class="srill-item" >
+          <h3>CSS</h3>
+        </li>
+        <li class="srill-item">
+          <h3>JavaScript</h3>
+        </li>
+      </ul>
+    </section>
+
+    <section class="code" id="code">
+      <h2>Code</h2>
+      <div class="code-example">
+        <pre>
+          <code class="code">
+            function sum(x, y) {
+              z = x + y;
+              return z;
+            }
+          </code>
+        </pre>
+      </div>
+    </section>
+
+    <section class="courses" id="courses">
+      <h2>Courses</h2>
+      <ul class="courses-list">
+        <li class="course-item"><h3>RollingScopes School</h3></li>
+      </ul>
+    </section>
+
+    <section class="projects" id="projects">
+      <h2>Projects</h2>
+      <ul class="projects-list">
+        <li class="project-item"><a href="https://dvr16.github.io/rsschool-cv/"><h3>My CV</h3></a></li>
+      </ul>
+    </section>
+
+    <section class="english" id="english">
+      <h2>English</h2>
+      <h3>A0+</h3>
+    </section>
+  </main>
+
+  <footer class="main-footer">
+    <section class="footer-social">
+      <img src="./assets/github.png" alt="github" width="50" height="50" >
+      <a href="https://github.com/dvr16">My GitHub</a>
+    </section>
+
+    <section class="date">
+      <h2>2024</h2>
+    </section>
+
+    <section class="rsschool">
+      <a href="https://rs.school/courses/javascript-ru"><img src="./assets/i.webp" alt="RSSchool" width="50" height="50"></a>
+    </section>
+  </footer>
 </body>
 </html>
